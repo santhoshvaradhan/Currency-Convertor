@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter
+    </title>
+    <link rel="stylesheet" href="currencystyle.css">
+    <script src="currency.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">  </script>
+</head>
+<body>
+    <div class="container">
+        <div class="currency-converter">
+            <h3>Currency Converter</h3>
+            <label for="Amount">Amount</label>
+            <input id="amount-field" type="text" placeholder="Enter Amount" >
+            <!-- <input type="text" placeholder="From Currency"> -->
+            <label for="">From Currency</label>
+            <select name="efrom" id="efrom">
+                <option value="AUD">AUD: Australian Dollar</option>
+                <option value="BRL">BRL: Brazilian Real</option>
+                <option value="BTC">BTC: Bitcoin</option>
+                <option value="CAD">CAD: Canadian Dollar</option>
+                <option value="CHF">CHF: Swiss Franc</option>
+                <option value="CNY">CNY: Chinese Yuan</option>
+                <option value="EUR">EUR: Euro</option>
+                <option value="GBP">GBP: British Pound Sterling</option>
+                <option value="HKD">HKD: Hong Kong Dollar</option>
+                <option value="INR">INR: Indian Rupee</option>
+                <option value="JPY">JPY: Japanese Yen</option>
+                <option value="KRW">KRW: South Korean Won</option>
+                <option value="MXN">MXN: Mexican Peso</option>
+                <option value="RUB">RUB: Russian Ruble</option>
+                <option value="SGD">SGD: Singapore Dollar</option>
+                <option value="USD">USD: United States Dollar</option>
+                <option value="ZAR">ZAR: South African Rand</option>
+            </select>
+             <label for="">To Currency</label>
+             <select name="eto" id="eto">
+                <option value="AUD">AUD: Australian Dollar</option>
+                <option value="BRL">BRL: Brazilian Real</option>
+                <option value="BTC">BTC: Bitcoin</option>
+                <option value="CAD">CAD: Canadian Dollar</option>
+                <option value="CHF">CHF: Swiss Franc</option>
+                <option value="CNY">CNY: Chinese Yuan</option>
+                <option value="EUR">EUR: Euro</option>
+                <option value="GBP">GBP: British Pound Sterling</option>
+                <option value="HKD">HKD: Hong Kong Dollar</option>
+                <option value="INR">INR: Indian Rupee</option>
+                <option value="JPY">JPY: Japanese Yen</option>
+                <option value="KRW">KRW: South Korean Won</option>
+                <option value="MXN">MXN: Mexican Peso</option>
+                <option value="RUB">RUB: Russian Ruble</option>
+                <option value="SGD">SGD: Singapore Dollar</option>
+                <option value="USD">USD: United States Dollar</option>
+                <option value="ZAR">ZAR: South African Rand</option>
+            </select>
+            <!--button which calling api-->
+            <button id="Convert" onclick="Currencyapi()">Convert  <i  class="fa fa-paper-plane"></i></button>
+            <p id="currency-output"> </p>
+
+
+        </div>
+    </div>
+</body>
+<script>
+   
+ </script>
+</html>

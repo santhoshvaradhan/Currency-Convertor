@@ -1,0 +1,98 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    outline: none;
+    
+  }
+  body
+  {
+    background-color: rgb(141 11 225);
+  }
+  .container
+  {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 440px; */
+    padding: 0 20px;
+    margin: 70px auto;
+    
+  }
+  .currency-converter
+  {
+    background-color:white;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px 1px rgba(5, 5, 5, 0.1);
+    display: grid;
+    grid-template-columns:repeat(0,80px);
+    align-items: center;
+    
+  
+  }
+  
+  h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    grid-column: span 4;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(141 11 225);
+    
+  }
+  input,select
+  {
+    grid-column:span 4;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-width: 1px;
+  }
+  button
+  {
+   grid-column:span 4;
+    height: 40px;
+    width: auto;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(141 11 225);
+    margin: 0px;
+    /* margin-left: px; */
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+    /* font-weight: bold; */
+  }
+  button:hover
+{
+    background-color: rgb(110, 12, 175);
+}
+  #currency-output
+  {
+    border: none;
+    background-color: rgb(248, 240, 252) ;
+    height: 50px;
+    grid-column: span 4;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+  }
+  label
+  {
+    grid-column: span 4;
+    margin-left:5px;
+  }
+  .fa-paper-plane
+  {
+    margin-left: 5px;
+  }
